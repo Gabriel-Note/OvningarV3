@@ -5,6 +5,7 @@ public class Main {
         Exercise1_3 exercise1_3 = new Exercise1_3("Gabriel", 31);
         Exercise2_1 exercise2_1 = new Exercise2_1();
         Exercise2_2 exercise2_2 = new Exercise2_2();
+        Exercise3_1 exercise3_1 = new Exercise3_1();
 
         // Exercise 1_1
         /*
@@ -44,8 +45,7 @@ public class Main {
 
         //Exercise3_1
 
-
-
+        System.out.println(exercise3_1.reverseString("Hejsan"));
 
     }
         static void programStarting(){
