@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Exercise3_1 {
     String reversedText;
 
@@ -51,5 +53,16 @@ public class Exercise3_1 {
             }
         }
         return wordCount;
+    }
+
+    public String capitalizeWords(String text){
+        text = text.trim().toLowerCase();
+        StringBuilder sb = new StringBuilder(text);
+        ArrayList<Integer> firstLetterOfWordsIndex = HelperMethods.startOfWordIncludingNumbers(text);
+        for (int i = 0; i < firstLetterOfWordsIndex.size(); i++){
+            int arrayIndex = firstLetterOfWordsIndex.get(i);
+            sb.setCharAt(arrayIndex, Character.toUpperCase(text.charAt(arrayIndex)));
+        }
+        return sb.toString();
     }
 }

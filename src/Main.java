@@ -44,10 +44,13 @@ public class Main {
          */
 
         //Exercise3_1
-
+        /*
         System.out.println(exercise3_1.reverseString("Hejsan"));
         System.out.println(exercise3_1.countVowels("texten"));
         System.out.println(exercise3_1.countWords("A text in this liTTle establisHment?? 44 years ago????!."));
+        System.out.println(exercise3_1.capitalizeWords("A text in this liTTle establisHment?? 44 years ago????!."));
+         */
+
 
 
     }
